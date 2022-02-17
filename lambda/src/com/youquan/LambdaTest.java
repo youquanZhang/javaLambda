@@ -64,7 +64,7 @@ public class LambdaTest {
         TeacherDao td2 =teacher ->{return  2;};
         TeacherDao td3 =(Teacher teacher) -> 3;
         TeacherDao td4 =teacher -> 4;
-        TeacherDao td5 =(Teacher teacher) -> {return 5;};
+        TeacherDao td5 =(Teacher teacher) -> {return 6;};
         System.out.println(td2.get(new Teacher()));
         System.out.println(td3.get(new Teacher()));
         System.out.println(td4.get(new Teacher()));
