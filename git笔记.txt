@@ -1,0 +1,17 @@
+
+1 在本地文件夹初始化（如test目录下）
+git init
+
+2 将test文件夹下的内容提交至暂存区
+git add .
+git commit -m '注释，描述'
+
+3 提交至远程仓库(NNN 替代用户名)
+git remote add origin https://github.com/youquanZhang/javaLambda.git     // 添加 origin主机 和对应的 git仓库地址
+git push -u origin master　　　　　　　　　　　　　　　　　// 命令将本地的master分支推送到origin主机，同时指定origin为默认主机
+
+4.解决不能用密码登录的问题。
+https://blog.csdn.net/weixin_41010198/article/details/119698015
+5.解决fatal: unable to access 'https://github.com/youquanZhang/javaLambda.git/': Error in the HTTP2 framing laye
+
+git config --global --unset https.proxy
