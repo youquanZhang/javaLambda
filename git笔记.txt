@@ -15,3 +15,6 @@ https://blog.csdn.net/weixin_41010198/article/details/119698015
 5.解决fatal: unable to access 'https://github.com/youquanZhang/javaLambda.git/': Error in the HTTP2 framing laye
 
 git config --global --unset https.proxy
+
+记住密码
+git remote set-url origin https://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@github.com/youquanZhang/javaLambda.git/
